@@ -1,0 +1,23 @@
+{
+  "name": "test-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dev.azure.com/kyalwsuser/Test-Mocha/_git/Test-Mocha"
+  },
+  "author": "Kyal Lanum",
+  "license": "MIT",
+  "dependencies": {
+    "mocha-logger": "1.0.8",
+    "timespan": "^2.3.0",
+    "express": "4.11.0"
+  },
+  "overrides": {
+    "mocha": "10.1.0"
+  }
+}
